@@ -1,0 +1,29 @@
+.main__list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__list-item {
+  width: 160px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 15px #df1414 solid;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 40px;
+  background-color: #0deec5;
+}
+.main__list-title {
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  color: #ff0000;
+  border-bottom: 1px solid #ff0000;
+  border-top: 1px solid #ff0000;
+}
+.main__list-types {
+  list-style-type: none;
+}
